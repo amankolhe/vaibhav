@@ -1,0 +1,758 @@
+.home-navbar {
+    /* background-color: transparent; */
+    width: 100%;
+    z-index: 9;
+    position: fixed;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+	-webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;   
+    /* overflow: hidden; */
+    /* position: sticky; */
+}
+
+.home-navbar.scrolled {
+    background-color: #fff !important;
+    /* transition: background-color 200ms linear; */
+}
+
+.active {
+    background-color:#fff;
+    box-shadow: 2px 2px 4px 0 rgb(2 45 98/10%);
+  }
+  .i-active{
+    color: #000 !important;
+  }
+.carousel {
+    top: 0px;
+}
+
+.emailcanvas a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.home-navbar i {
+    font-size: 35px;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.logo-div {
+    background-color: #fff;
+    /* padding: 3px 10px; */
+}
+
+.home-navbar .logo-i{
+    color: #000;
+}
+
+.btn-close {
+    color: #fff !important;
+}
+
+.offcanvas-body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-link-div {
+    padding: 20px 0 0 0;
+}
+
+
+
+
+.carousel-image {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.slider-content {
+    position: absolute;
+    top: 7%;
+    /* left: 25%; */
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+}
+
+/* .slider-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 100px ;
+} */
+.slider-content h5 {
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 22px;
+    margin-top: 35px;
+}
+
+.slider-content h2 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffff;
+    letter-spacing: 1.2px;
+}
+
+.slider-content p {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    width: 500px;
+}
+
+.slider-content a {
+    font-size: 17px;
+    color: #e8bf19 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+.slider-foot {
+    width: 350px;
+    height: 130px;
+    background-color: #e8bf19;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+.slider-foot h6 {
+    color: #101010;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+/* .mycanvas ul:hover {
+    transform: scale(1.2);
+  } */
+
+
+
+.production-section {
+    background-image: url('../assets/images/hp-service-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: end;
+    max-width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.horizontal-line {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #101010;
+    letter-spacing: 3.5px;
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    top: -70px;
+    left: 30px;
+
+}
+
+
+/* font-family: "Poppins", sans-serif; */
+
+.production-section-info {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    padding-left: 28px;
+    bottom: 130px;
+}
+
+.production-section-header {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    padding: 150px 0 0 55px;
+}
+
+.production-section-header h4 {
+    color: #111111;
+    font-size: 48px;
+    font-weight: 900;
+    position: relative;
+    bottom: 6%;
+    letter-spacing: 1.9px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.production-section-header h5 {
+    color: #111111;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    padding-left: 1px;
+}
+
+
+
+.production-camera-icon {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3px;
+
+}
+
+.production-camera-icon p {
+    color: #111111;
+    font-size: 17px;
+    /* font-weight: 600; */
+    letter-spacing: 1.6px;
+    text-transform: capitalize;
+    padding: 0 50px 0 30px;
+
+}
+
+.production-learn-btn {
+    color: #111111;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 0 0 80px;
+    cursor: pointer;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0.3 !important;
+}
+
+.home-production-section-2 {
+    background-image: url('../assets/images/hp-service-bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 133vh;
+    position: relative;
+
+}
+
+.home-production-absolute-section-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* padding-left: 380px; */
+}
+
+.home-production-absolute-section-2 img {
+    width: 100%;
+    height: 100%;
+    padding-left: 460px;
+
+}
+
+.home-pro-info-section-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 250px 0 0 480px;
+}
+
+
+.home-pro-info-section-2 h4 {
+    color: #ffff;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.home-pro-info-section-2 h5 {
+    color: #ffff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.home-production-section-3 {
+    background-image: url('../assets/images/hp-service-bg-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+    position: relative;
+
+}
+
+
+.map-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.map-div {
+    width: 70%;
+}
+
+.logo-dnic {
+    background-color: white;
+}
+
+.home-contact-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.home-contact-info h4 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.home-contact-info p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.home-contact-info h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-btn {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #101010;
+    cursor: pointer;
+
+}
+
+.contact-btn:hover {
+    color: #e8bf19;
+    transition: all 1s;
+}
+
+
+.nav-lst {
+    display: flex;
+}
+
+.beardman {
+    display: none;
+}
+
+.below-image {
+    display: none;
+}
+
+.below-image2 {
+    display: none;
+}
+
+.below-image3 {
+    display: none;
+}
+
+/* .offcanvas-body{
+    flex-grow: 0;
+} */
+
+.mobile-footer {
+    display: none;
+}
+
+
+
+.navt ul {
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 8rem;
+    list-style: none;
+}
+
+.navt li a {
+    font-size: 1.3rem;
+    color: #312740;
+    font-weight: 900;
+    text-decoration: none !important;
+    padding: 20px;
+}
+
+.navb ul {
+    display: flex;
+    position: absolute;
+    left: -16px;
+    top: 12rem;
+    list-style: none;
+}
+
+.navb li a {
+    font-size: 1.3rem;
+    color: #312740;
+    font-weight: 900;
+    text-decoration: none !important;
+    padding: 15px;
+}
+
+
+
+@media (max-width:768px) {
+
+    .production-section-info img {
+        display: none;
+
+    }
+
+    .footer-section {
+        max-width: 100%;
+    }
+
+    .production-camera-icon {
+        display: none;
+    }
+
+    .map-section h5 {
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .momomo {
+        display: none;
+    }
+}
+
+@media (max-width:586px) {
+    .footer-section {
+        width: 100%;
+        height: 270px;
+    }
+
+    .mobile-footer {
+        display: block;
+    }
+
+    .nav-lst {
+        display: none;
+    }
+
+    .footer-baground {
+        background-color: #fff;
+        padding: 6px 14px;
+        position: relative;
+        top: -29%;
+        right: -25%;
+    }
+
+    .logo-div {
+        height: 90px;
+    }
+
+    .mcanvas {
+        padding-top: 100px;
+    }
+
+
+    .home-details-3 h5,
+    .home-details h5,
+    .home-details-2 h5 {
+        font-size: 18px;
+    }
+
+    .home-details h5 {
+        text-align: start;
+    }
+
+    .home-production-absolute-section-2 {
+        height: 40vh;
+    }
+
+    .logo-div {
+        background: transparent;
+    }
+
+    .home-details,
+    .home-details-2,
+    .home-details-3 {
+        padding: 0 15px 0 15px;
+        text-align: justify;
+    }
+
+    .offcanvas-body {
+        justify-content: start;
+    }
+
+    .below-image p {
+        /* padding-top: 20px; */
+        font-weight: 700;
+    }
+
+    .below-image h4 {
+        font-size: 30px;
+        font-weight: 800;
+
+    }
+
+    .below-image h5 {
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+    .below-image3 h4 {
+        font-size: 30px;
+        font-weight: 800;
+
+    }
+
+    .below-image3 h5 {
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+    .below-image2 h4 {
+        font-size: 30px;
+        font-weight: 800;
+
+    }
+
+    .below-image2 h5 {
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+    .production-section-header {
+        display: none;
+    }
+
+    .beardman {
+        display: none;
+    }
+
+
+    .below-image {
+        padding-top: 20px;
+        height: auto;
+        width: auto;
+        background-color: #F4C201;
+        display: block;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+
+    }
+
+    .below-image2 p {
+        padding-top: 20px;
+        font-weight: 700;
+    }
+
+    .below-image2 {
+        padding-top: 20px;
+        height: auto;
+        width: auto;
+        background-color: #FED53D;
+        display: block;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+
+    }
+
+    .below-image3 p {
+        padding-top: 20px;
+        font-weight: 500;
+
+    }
+
+    .below-image3 {
+        padding-top: 20px;
+        height: auto;
+        width: auto;
+        background-color: #111111;
+        display: block;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+        color: white;
+
+    }
+
+    .slider-content {
+        top: 0%;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+
+
+    .production-learn-btn {
+        display: none;
+    }
+
+    .slider-foot {
+        display: none;
+    }
+
+    .home-pro-info-section-2 {
+        display: none;
+    }
+
+    .production-section {
+        background-position-x: 70%;
+    }
+
+    .production-section-header h4 {
+        font-size: 25px;
+        font-weight: 900;
+        /* position: relative; */
+
+    }
+
+    .production-section-header {
+        position: relative;
+        right: 5%;
+        bottom: 10%;
+    }
+
+    .home-production-section-3 {
+        background-position-x: 70%;
+        height: 50vh;
+    }
+
+    .home-production-section-2 {
+        background-position-x: 20%;
+        height: 70vh;
+
+    }
+
+    .horizontal-line {
+        top: 5%;
+    }
+
+    .home-contact-info {
+
+        padding-left: 4px;
+        background-color: rgb(196, 236, 236);
+
+    }
+
+    .archan {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .slider-content p {
+        display: none;
+    }
+
+    .slider-content {
+        padding: 0;
+        /* position: relative; */
+        padding-top: 150px;
+        padding-left: 20px;
+
+    }
+
+    .slider-content h5 {
+        font-style: italic;
+
+    }
+
+    .carousel-item img {
+        max-width: auto;
+        height: 400px;
+
+    }
+
+    .map-section {
+        display: block;
+    }
+
+    .map-div {
+        padding: 0 10px 0 10px;
+        width: 100%;
+    }
+
+    .home-contact-info {
+        /* margin: 0 10px 0 10px; */
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .map-section {
+        padding-bottom: 10px;
+    }
+
+    .slider-content h2 {
+        font-size: 35px;
+        font-weight: 900;
+    }
+
+    .slider-content h5 {
+        font-size: 18px;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+
+    .beardman {
+        position: absolute;
+        display: block;
+        color: white;
+        top: 38%;
+        left: 4%;
+
+    }
+
+    .beardman h4 {
+        font-weight: 900;
+        font-size: 28px;
+
+    }
+
+    .beardman h5 {
+        font-weight: 600;
+        font-size: 15px;
+        font-style: italic;
+
+
+    }
+
+    .nav-link {
+        padding: 4px 0 !important;
+    }
+}

@@ -1,0 +1,565 @@
+
+
+.Production-backround-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/images/page-title-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: relative;
+
+}
+
+.production-content {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+.production-content h2 {
+    font-size: 65px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.production-content h6 {
+    font-size: 25px;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+    padding-top: 3px;
+    color: #ffd115;
+    text-align: center;
+}
+
+.service-div {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service-col-1 {
+    background-image: url('../assets/images/service-bg-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 115vh;
+}
+
+.service-col-2 {
+    background-image: url('../assets/images/service-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 115vh;
+    position: relative;
+}
+
+.service-col-information {
+    position: absolute;
+    top: 12%;
+    padding: 0 90px 0 90px;
+}
+
+.service-col-information h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.service-col-information h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffd115;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.service-col-information p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+.gather-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px 100px 40px;
+}
+
+.take-sub {
+    display: flex;
+    flex-direction: row;
+}
+
+.take-sub h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+    padding: 0 20px 0 10px;
+}
+
+.take-sub h4 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #747474;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+
+}
+
+.take-sub h5 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    color: #111111;
+    text-transform: uppercase;
+    padding-top: 4px;
+    margin: 0;
+
+}
+
+
+.gather-section-info p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #747474;
+    padding: 5px 25px 0 20px;
+    margin: 0;
+}
+
+.Creative-section-info p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #747474;
+    padding: 5px 25px 0 10px;
+    margin: 0;
+}
+
+.Take-section-info p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #747474;
+    padding: 5px 25px 0 0;
+    margin: 0;
+}
+
+.photographer-card {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding: 25px 0 25px 0;
+    overflow: hidden;
+    margin: 10px;
+
+}
+
+.photographer-card img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    filter: grayscale(100%);
+    transition: all 1s;
+    padding: 10px;
+
+}
+
+.photographer-card img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+    overflow: hidden;
+
+
+}
+
+.single-card {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.photographer-card-absolute h5 {
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    width: 100%;
+    height: 95%;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.4px;
+}
+
+.quote-div {
+    width: 100%;
+    height: 400px;
+    background-image: url("../assets/images/quote-bg-2.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    position: relative;
+    margin: 30px 0 30px 0;
+
+
+}
+
+.quote-absolute {
+    position: absolute;
+    width: 50%;
+    left: 10%;
+    top: 30%;
+
+}
+
+.quote-absolute span {
+    font-size: 110px;
+    color: #ffd115;
+    position: absolute;
+    top: -80px
+}
+
+.quote-absolute h5 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #161616;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.quote-absolute h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #161616;
+    letter-spacing: 1.5px;
+}
+
+.contact-section {
+    background-color: #ffd115;
+    /* width: 100%; */
+    /* height: 500px; */
+    /* display: flex; */
+    
+    /* padding: 60px 0 60px 60px; */
+}
+
+.contact-Booking {
+    /* width: 50%; */
+}
+
+.contact-Booking h4 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.contact-Booking p {
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    color: #111111;
+    /* padding: 5px 80px 20px 0; */
+
+}
+
+.contact-Booking h5 {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+
+}
+
+.contact-form-div {
+    /* width: 50%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+
+.form-contro {
+    border: none;
+    background-color: #e8bf19;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    color: #111111;
+    width: 100%;
+    height: 55px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.text-area {
+    width: 100%;
+    border: none;
+    background-color: #e8bf19;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    color: #111111;
+    padding-left: 10px;
+    padding-top: 20px;
+
+
+}
+
+.form-row {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-self: flex-start; */
+}
+
+.form-Name {
+    border: none;
+    background-color: #e8bf19;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    color: #111111;
+    width: 100%;
+    height: 55px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+::placeholder {
+    color: #111111;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: #111111;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.submit-btn {
+    background-color: #111111;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: center;
+    font-weight: 600;
+    border: 0;
+    box-shadow: none;
+    padding: 13px 24px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    color: #e8bf19;
+    transition: all 3s;
+}
+
+
+
+
+
+.facilities-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.facilities-div h4 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.6;
+    font-size: 22px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.facilities-div h6 {
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-size: 15px;
+    padding: 6px 0 6px 0;
+    display: inline-block;
+    background-color: #ffd115;
+    margin: 0 400px 20px 400px;
+}
+
+.facilities-di {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.facilities-di h4 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.facilities-di h6 {
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 15px;
+    padding: 6px 0 6px 0;
+    display: inline-block;
+    background-color: #ffd115;
+    margin: 0 300px 20px 300px;
+}
+
+.facilities-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 30px 0 30px;
+    margin: 0px 0px 60px 0px;
+}
+
+.navbar-last{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-section{
+    /* height: 500vh; */
+}
+
+@media(max-width:576px) {
+    .sidemeh{
+        padding-top: 90px;
+    }
+    
+    .Production-backround-image{
+        background-repeat: no-repeat;
+        height: 40vh;
+
+    }
+    .production-content{
+        height: 35vh;
+    }
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+    .logo-div img{
+        padding-left: 90px;
+    
+    }
+
+    .contact-section{
+        height: auto;
+        display: block;
+
+    }
+    .navbar-last{
+        /* display: flex; */
+        flex-direction: column;
+        /* padding: 20px 0 20px 0; */
+    }
+    .footer-nav-item {
+
+    }
+    .quote-absolute{
+        /* height: 1000px; */
+    }
+    .quote-div{
+        height: 750px;
+        background-position-x: 80%;
+    }
+    .quote-absolute h6{
+        padding-top: 20px;
+        font-weight: 900;
+    }
+
+    .quote-absolute h5{
+        padding-bottom: 0px;
+        line-height: 30px;
+    }
+    .gather-div{
+        flex-direction: column;
+        padding: 40px 15px 30px 15px;
+    }
+    .gather-div p{
+        text-align: justify;
+
+    }
+    .gather-section-info {
+        padding-bottom: 30px;
+
+    }
+    .Take-section-info{
+        padding-top: 30px;
+    }
+    .photographer-card{
+        flex-direction: column;
+    }
+    .facilities-di h6{
+        margin: 0;
+        padding: 5px 3px 5px 3px;
+        height: auto;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .facilities-di {
+        display: block;
+    }
+    .service-div{
+        display: none;
+    }
+
+    .production-content h2{
+        font-size: 30px;
+    }
+   .submit-btn  {
+    position: relative;
+    left: 25%
+   }
+   .facilities-di h4{
+    letter-spacing: 2px;
+   }
+   .nav-link{
+    padding: 4px 0 !important;
+}
+    
+
+}
